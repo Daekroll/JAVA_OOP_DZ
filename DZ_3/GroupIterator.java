@@ -3,10 +3,10 @@ package DZ_3;
 import java.util.Iterator;
 import java.util.List;
 
-public class GroupIterator implements Iterator<Student> {
-    private List<Student> students;
+public class GroupIterator implements Iterator<Student1> {
+    private List<Student1> students;
     private int count;
-    public GroupIterator(List<Student> students){
+    public GroupIterator(List<Student1> students){
         this.students = students;
     }
     @Override
@@ -14,7 +14,7 @@ public class GroupIterator implements Iterator<Student> {
         return count < students.size();
     }
     @Override
-    public Student next(){
+    public Student1 next(){
         return students.get(count++);
     }
 }
