@@ -1,4 +1,4 @@
-package DZ_4;
+package DZ_4_Update;
 
 public class Book<T> {
     private T name;
