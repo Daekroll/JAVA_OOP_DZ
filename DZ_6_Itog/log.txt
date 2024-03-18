@@ -1,0 +1,2 @@
+мар. 18, 2024 2:15:29 PM DZ_6_Itog.Data.LogToFile log
+INFO: result: -2.0+0.0i
